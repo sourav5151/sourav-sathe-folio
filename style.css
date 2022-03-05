@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ':Poppins',sans-serif;
+}
+.header
+{
+    display: flex;
+    background-color: black;
+    
+    width: 100%;
+    height: 100px;
+    
+    
+    
+}
+.header a{
+    position: relative;
+    margin: 0 20px;
+    font-size: 1em;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-family:Poppins,sans-serif;
+}
+#marker
+{
+        position:absolute;
+        /*bottom: 0;*/
+        margin-top: 70px;
+        left: 0;
+        width:0;
+        height: 4px;
+        background: #f3f3f7;
+        transition: 0.8s;
+        border-radius: 4px;
+        margin-left:0px;
+}
+#heading h2
+{
+    padding-top: 20px;
+    margin-left: 30px;;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.header_elements ul
+{
+    display: flex;
+    padding: 24px;
+    margin-left: 650px;
+
+
+}
+.header_elements ul li
+{
+   color: #fff;
+   font-size: 20px;
+  font-family: cursive;
+   list-style: none;
+   font-style:oblique;
+    padding: 10px;
+   padding-left: 5px;
+   padding-top: 10px;
+   cursor: pointer;
+}
+
+.banner
+{
+    /*background-color:rgba(248,247,245,255);*/
+    background-color:rgb(253, 251, 251);
+    filter: grayscale(50%);
+    
+    height: 600px;
+    display: flex;
+    width: 100%;
+    float: left;
+}
+#name h1
+{
+    padding-top: 20px;
+    margin-left: 30px;;
+    color: rgb(80, 78, 78);
+    font-size: 30px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    float: left;
+    cursor: pointer;
+}
+
+.text-box{
+    margin-top: 15%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding: 45px;
+    line-height: 26px;
+    width: 60%;
+}
+.text-box h1{
+    font-size: 60px;
+    line-height: 160px;
+}
+.text-box a{
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 6px;
+    border: 2px solid #fff724;
+    color: #fff724;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.text-box .btn{
+    background: #fff724;
+    color: #000;
+    margin-left: 30px;
+    font-weight: 600;
+}
+.text-box .btn2{
+    background: #f7f6e6;
+    color: #fff724;
+    margin-left: 30px;
+    font-weight: 600;
+} 
+.text-box .btn2:hover
+{
+    background: #fff724;
+    color: #000;
+
+}
+#banner_img{
+    width: 500px;
+    height: 600px;
+    margin-top: 0px;
+    margin-right: 0%;
+
+    
+}
+#about-main-box{
+    width: 100%;
+    height: 650px;
+    float: left;
+    padding: 0px;
+    background-color: #111111;
+}
+.about-box{
+   width: 90%;
+   margin-left: 5%;
+   color: #fff724;
+   float: left;
+   margin-top: 30px;
+   background-color: #ffffff;
+   height: 600px; 
+}
+#personal-info
+{
+    width: 50%;
+    height: 600px;
+    padding: 0px;
+    float:left;
+    background-color: #fff724;
+    
+}
+.img1
+{
+    width: 40%;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.table1
+{padding: 10px;
+margin-right: 0px;
+width: 30%;}
+
+.title-s
+{
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+}
+.name
+{
+    
+    height:300px;
+    margin-left:0px;
+    float: left;
+    padding: 40px;
+    color: #000;
+    margin-top: 10px;
+}
+/*...............skill.................*/
+.title-skill
+{
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 2.1rem;
+    margin-top: 320px;
+    margin-left: 20px;
+}
+.skill-mf .progress{
+    margin-top: 10px;
+    background-color: #cde1f8;
+    margin: 0.5rem 0 1.2rem 0;
+    border-radius: 0;
+    height: 0.8rem;
+    width: 90%;
+    margin-left: 5%;
+}
+.skill-mf span {
+    color: #1f1e1e;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.progress
+{
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+}
+.skill-mf .progress .progress-bar {
+    height: 0.7rem;
+    background-color: #0078ff;
+  }
+
+
+  #image
+  {
+      width: 50%;
+      height: 600px;
+      float:right;
+      background-color: #0078ff;
+  }
+  .skillimg
+  {
+      width: 100%;
+      height: 600px;
+      float: right;
+  }
+.container
+{
+    /*background:url(/img/milk\ dairy.PNG);
+    background: url(/img/add\ product.PNG);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+img
+{
+    width: 50%;
+    height: 300px;
+    float: left;  
+}
+/*.work_img{
+    width: 50%;
+    height: 300px;
+    float: left;
+  }*/
+.title-work
+{
+    position: absolute;
+    top: 1450px;
+    left: 15%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translate(-50%);
+    transform: translateY(-50%);
+    z-index: 2;
+    font-family: sans-serif;
+}
+.title-work h1
+{
+    font-size: 60px;
+    color: #f8f5f5;
+    text-align: center;
+    margin: 0;
+}
+ .overlay
+ {
+    background: #0078ff;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 1350px;
+    transition: 2.5s ease;
+    left: 0;
+    z-index: 1;
+ }
+ .overlay:hover
+ {
+     background-color: #08080863;
+     /*transition-delay: 1s;*/
+     transition: 1.5s;
+
+     opacity: 1;
+     transition-property: margin-right;
+ }
+
+ #footer
+ {
+     width: 100%;
+     height: 200px;
+     float: left;
+     color: #000;
+     
+ }
+ .social_media
+ {
+     width: 50px;
+     height: 50px;
+     float: left;
+     margin-top: 60px;
+     padding: 0;
+     margin-left: 40%;
+
+ }
+ .social_media2
+ {
+     width: 50px;
+     height: 50px;
+     float: left;
+     margin-top: 60px;
+     margin-left: 50px;
+
+ }
+ .social_media3
+ {
+     width: 50px;
+     height: 50px;
+     float: left;
+     margin-top: 60px;
+     margin-left: 50px;
+ }
+ .black-foo{
+     width: 100%;
+     height: 50px;
+     margin-top: 70px;
+     background-color: #000;
+     float: left;
+ }
+ .black-foo h6
+ {
+     color: #e9ecef;
+     text-align: center;
+     margin-top: 10px;
+ }
+ .black-foo p{
+     color: #fff724;
+     text-align: center;
+     margin-top: 5px;
+     font-family:cursive;
+ }

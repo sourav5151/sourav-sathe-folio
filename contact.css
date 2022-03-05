@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ':Poppins',sans-serif;
+    
+}
+.header
+{
+    display: flex;
+    background-color: black;
+    
+    width: 100%;
+    height: 100px;
+    
+    
+    
+}
+.header a{
+    position: relative;
+    margin: 0 20px;
+    font-size: 1em;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-family:Poppins,sans-serif;
+}
+#marker
+{
+        position:absolute;
+        /*bottom: 0;*/
+        margin-top: 70px;
+        left: 0;
+        width:0;
+        height: 4px;
+        background: #f3f3f7;
+        transition: 0.8s;
+        border-radius: 4px;
+        margin-left:0px;
+}
+#heading h2
+{
+    padding-top: 20px;
+    margin-left: 30px;;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header_elements ul
+{
+    display: flex;
+    padding: 24px;
+    margin-left: 650px;
+
+
+}
+.header_elements ul li
+{
+   color: #fff;
+   font-size: 20px;
+  font-family: cursive;
+   list-style: none;
+   font-style:oblique;
+    padding: 10px;
+   padding-left: 5px;
+   padding-top: 10px;
+   cursor: pointer;
+}
+
+.banner
+{
+    /*background-color:rgba(248,247,245,255);*/
+    background-color:rgb(0, 0, 0);
+    filter: grayscale(50%);
+    height: 700px;
+    margin-top: 0px;
+    width: 100%;
+    float: left;
+
+
+}
+.h1txt{
+    color: #8080f7;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.box{
+    width: 600px;
+    height: 400px;
+    background-color: rgba(252, 248, 248, 0.877);
+    float: left;
+    margin-left: 300px;
+    margin-top: 0px;
+}
+
+#footer
+{
+    width: 100%;
+    height: 200px;
+    float: left;
+    color: #000;
+    
+}
+.social_media
+{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 60px;
+    padding: 0;
+    margin-left: 30%;
+
+}
+.social_media2
+{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 50px;
+
+}
+.social_media3
+{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.black-foo{
+    width: 100%;
+    height: 50px;
+    margin-top: 70px;
+    background-color: #000;
+    float: left;
+}
+.black-foo h6
+{
+    color: #e9ecef;
+    text-align: center;
+    margin-top: 10px;
+}
+.black-foo p{
+    color: #fff724;
+    text-align: center;
+    margin-top: 5px;
+    font-family:cursive;
+}
