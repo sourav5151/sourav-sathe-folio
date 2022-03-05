@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <title>SOURAV.S</title>
+    <link rel="stylesheet" href="./contact.css">
+    <script src="/index.js"></script>
+
+ 
+    
+
+    
+</head>
+<body>
+    <header class="header">
+        
+
+            <div id="heading">
+                    <h2>SouravFolio</h2>
+            </div> 
+            <div id="marker"></div>
+            <div class="header_elements">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    
+
+            </div>
+
+            
+       </header>
+       <div class="banner">
+           <h1 class="h1txt">Contact us</h1><br>
+           <div class="box">
+            <div id="footer">
+
+                <a href="https://instagram.com/_sourav_5151?utm_medium=copy_link"><img src="insta.png" class="social_media"></a>
+                <a href="https://www.facebook.com/sourav.sathe.50"><img src="fb.png" class="social_media2"></a>
+                <a href="https://www.linkedin.com/in/sourav-sathe-a204b419b"><img src="linked-in.png" class="social_media3"></a>
+                <div class="black-foo">
+                        <h6>get in touch</h6>
+                        <p>souravsathe0208@gmail.com</p>
+                </div>
+        </div>
+        
+           </div>
+       </div>
+
+       <script type="text/javascript">
+        var marker= document.querySelector('#marker');
+        var item= document.querySelectorAll('header a');
+
+        function indicator(e){
+            marker.style.left = e.offsetLeft +"px"; 
+            marker.style.width = e.offsetWidth +"px";
+        }
+        item.forEach(Link=>{
+            Link.addEventListener('mouseover',(e)=>{
+                    indicator(e.target);
+            })
+        })
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed=new Typed(".auto-input",{
+        strings:["Sourav Sathe","web developer"],
+        typeSpeed:100,
+        backSpeed:100,
+        loop:true
+    })
+</script>
+
+</body>
+</html>
